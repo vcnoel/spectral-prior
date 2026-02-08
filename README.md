@@ -64,7 +64,7 @@ Run the demo script to generate random batches from our Spectral Priors and save
 ```bash
 python scripts/demo_data_generation.py
 ```
-*Outputs: `results/demo_spectral_student_t.csv`, `results/demo_deep_spectral.csv`*
+*Outputs: `results/data/demo_spectral_student_t.csv`, `results/data/demo_deep_spectral.csv`*
 
 ### 2. Run the Benchmark
 To reproduce the 5-seed statistics (Mean ± Std) reported in the Key Findings:
@@ -72,7 +72,7 @@ To reproduce the 5-seed statistics (Mean ± Std) reported in the Key Findings:
 ```bash
 python scripts/tabarena_deep_benchmark.py
 ```
-*Outputs: `results/rigorous_benchmark.txt` with the full comparison table.*
+*Outputs: `results/logs/rigorous_benchmark.txt` with the full comparison table.*
 
 ### 3. Interactive Evaluation
 To interactively reproduce the results on specific datasets (e.g., Blood Transfusion):
@@ -138,7 +138,7 @@ The `scripts/` directory contains various experiments and evaluations:
 *   **`scripts/train_spectral.py`**: Trains a NanoTabPFN model using the `SpectralStudentTPrior`.
 *   **`scripts/ablation_study.py`**: Performs an ablation study on `nu` (latent distribution) and `hidden_dim` (spectral entropy), evaluating the trained model on the Wine dataset.
 *   **`scripts/stress_test.py`**: Compares a model trained on `SpectralStudentTPrior` vs a Gaussian baseline on "disconnected" (stressed) data.
-*   **`scripts/plot_spectral_match.py`**: Generates a plot comparing the singular value spectrum of the prior against real data geometry (saved to `results/spectral_match.png`).
+*   **`scripts/plot_spectral_match.py`**: Generates a plot comparing the singular value spectrum of the prior against real data geometry (saved to `results/figures/spectral_match.png`).
 
 To run a script (ensure `tfmplayground` and `spectral_prior` are installed):
 

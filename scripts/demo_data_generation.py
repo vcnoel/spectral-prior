@@ -42,8 +42,8 @@ def main():
     # Save one sample to CSV
     df_t = pd.DataFrame(X_t[0], columns=[f"feat_{i}" for i in range(n_features)])
     df_t['target'] = y_t[0]
-    df_t.to_csv("results/demo_spectral_student_t.csv", index=False)
-    print("    -> Saved sample to 'results/demo_spectral_student_t.csv'")
+    df_t.to_csv("results/data/demo_spectral_student_t.csv", index=False)
+    print("    -> Saved sample to 'results/data/demo_spectral_student_t.csv'")
 
     # 2. Deep Spectral Prior
     print(f"\n[2] Generating data from Deep Spectral Prior...")
@@ -60,8 +60,8 @@ def main():
     # Save one sample
     df_d = pd.DataFrame(X_d[0], columns=[f"feat_{i}" for i in range(n_features)])
     df_d['target'] = y_d[0]
-    df_d.to_csv("results/demo_deep_spectral.csv", index=False)
-    print("    -> Saved sample to 'results/demo_deep_spectral.csv'")
+    df_d.to_csv("results/data/demo_deep_spectral.csv", index=False)
+    print("    -> Saved sample to 'results/data/demo_deep_spectral.csv'")
     
     print("\n✅ Demo Complete.\n")
 
