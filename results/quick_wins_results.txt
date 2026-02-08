@@ -1,0 +1,8 @@
+2026 QUICK WINS RESULTS
+==================================================
+
+Iris: 91.11% (self_consistency)
+Wine: 100.00% (baseline)
+Breast Cancer: 97.66% (baseline)
+Vehicle: 63.08% (baseline)
+Vowel: 83.95% (self_consistency)

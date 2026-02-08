@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: spectral_prior
+Version: 0.1.0
+Summary: Spectral Priors for Tabular Data Generation
+Author: Anonymous
+Requires-Python: >=3.8
+Requires-Dist: torch>=1.10.0
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

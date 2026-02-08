@@ -1,0 +1,12 @@
+10-CLASS MODEL BENCHMARK RESULTS
+======================================================================
+
+Iris: 64.44% vs NeuralK 100.00%
+Wine: 87.04% vs NeuralK 100.00%
+Breast Cancer: 72.51% vs NeuralK 98.83%
+Digits: 31.30% vs NeuralK 100.00%
+Segment: 74.31% vs NeuralK 99.33%
+Satimage: 53.71% vs NeuralK 99.26%
+Letter: 48.76% vs NeuralK 99.85%
+Vehicle: 52.76% vs NeuralK 81.54%
+Vowel: 31.85% vs NeuralK 100.00%

@@ -1,0 +1,24 @@
+EXTENDED PRIOR COMPARISON
+============================================================
+
+
+dynamic_spectral_50k:
+  Iris: Baseline = 35.56%
+  Wine: Baseline = 96.30%
+  Breast Cancer: Dropout10% = 91.81%
+  Vehicle: Dropout10% = 55.90%
+  Vowel: Baseline = 74.07%
+
+hybrid_mixture_50k:
+  Iris: Baseline = 93.33%
+  Wine: Baseline = 98.15%
+  Breast Cancer: Bootstrap = 92.40%
+  Vehicle: Sharpen = 70.26%
+  Vowel: Bootstrap = 77.78%
+
+h244_50k:
+  Iris: Sharpen = 91.11%
+  Wine: Dropout10% = 98.15%
+  Breast Cancer: Dropout10% = 98.83%
+  Vehicle: Sharpen = 66.15%
+  Vowel: MegaEns60 = 79.01%

@@ -1,0 +1,12 @@
+TUNING EXPERIMENT RESULTS
+======================================================================
+
+Iris: Best=RobustScaler (93.33%)
+Wine: Best=Baseline (ctx=50, ens=1) (100.00%)
+Breast Cancer: Best=Baseline (ctx=50, ens=1) (98.25%)
+Digits: Best=PCA (d=10) (95.68%)
+Segment: Best=PCA (d=10) (93.60%)
+Satimage: Best=Ensemble x10 (97.68%)
+Letter: Best=Large + Ensemble x5 (94.48%)
+Vehicle: Best=PCA (d=10) (67.18%)
+Vowel: Best=Large + Ensemble x5 (82.72%)

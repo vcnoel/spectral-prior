@@ -1,0 +1,73 @@
+WILD EXPERIMENTAL TRICKS v2
+==================================================
+
+
+Baseline (Ens20):
+  Iris: 91.11%
+  Wine: 100.00%
+  Breast Cancer: 98.25%
+
+MultiModel Vote:
+  Iris: 88.89%
+  Wine: 100.00%
+  Breast Cancer: 98.25%
+
+Feature Dropout 10%:
+  Iris: 91.11%
+  Wine: 100.00%
+  Breast Cancer: 98.25%
+
+Feature Dropout 20%:
+  Iris: 91.11%
+  Wine: 100.00%
+  Breast Cancer: 97.66%
+
+Bootstrap Agg:
+  Iris: 91.11%
+  Wine: 100.00%
+  Breast Cancer: 98.25%
+
+Random Projection:
+  Iris: 88.89%
+  Wine: 100.00%
+  Breast Cancer: 96.49%
+
+Temp Sweep:
+  Iris: 88.89%
+  Wine: 100.00%
+  Breast Cancer: 98.83%
+
+Feature Noise 5%:
+  Iris: 91.11%
+  Wine: 100.00%
+  Breast Cancer: 98.25%
+
+Feature Noise 10%:
+  Iris: 88.89%
+  Wine: 100.00%
+  Breast Cancer: 97.66%
+
+Context Aug:
+  Iris: 91.11%
+  Wine: 100.00%
+  Breast Cancer: 97.08%
+
+Softmax Sharpen:
+  Iris: 88.89%
+  Wine: 100.00%
+  Breast Cancer: 97.66%
+
+Confidence Vote:
+  Iris: 88.89%
+  Wine: 100.00%
+  Breast Cancer: 98.25%
+
+Feature Subset 70%:
+  Iris: 91.11%
+  Wine: 100.00%
+  Breast Cancer: 97.66%
+
+🚀 MEGA Ensemble:
+  Iris: 91.11%
+  Wine: 100.00%
+  Breast Cancer: 98.25%

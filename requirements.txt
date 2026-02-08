@@ -1,0 +1,17 @@
+
+torch>=2.0.0
+scikit-learn
+pandas
+h5py
+requests
+openml
+schedulefree
+interpret
+numba
+mlflow
+setuptools
+pfns
+# neuralk (Private API, install if key available)
+# neuralk>=0.1.0
+scikit-learn-intelex
+numpy<2.0.0

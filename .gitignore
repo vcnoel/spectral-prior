@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+workdir/
+checkpoints/
+results/benchmark_log.txt
+.DS_Store

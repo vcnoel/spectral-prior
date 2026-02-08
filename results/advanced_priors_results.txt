@@ -1,0 +1,10 @@
+ADVANCED PRIOR IDEAS RESULTS
+============================================================
+
+
+hybrid_mixture:
+  Iris: 93.33%
+  Wine: 98.15%
+  Breast Cancer: 93.57%
+  Vehicle: 64.62%
+  Vowel: 62.96%

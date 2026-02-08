@@ -1,0 +1,21 @@
+H-CALIBRATED EXPERIMENT RESULTS
+==================================================
+
+Iris: Best=91.11% (Baseline), H=1.09
+  Base=91.11%, H→2.44=91.11%, Mega=91.11%, H+Mega=88.89%
+Wine: Best=100.00% (Baseline), H=2.41
+  Base=100.00%, H→2.44=100.00%, Mega=100.00%, H+Mega=100.00%
+Breast Cancer: Best=98.25% (Baseline), H=2.82
+  Base=98.25%, H→2.44=98.25%, Mega=98.25%, H+Mega=97.66%
+Digits: Best=95.06% (Baseline), H=3.92
+  Base=95.06%, H→2.44=39.51%, Mega=93.83%, H+Mega=41.98%
+Segment: Best=93.27% (Baseline), H=2.41
+  Base=93.27%, H→2.44=92.93%, Mega=92.93%, H+Mega=93.27%
+Satimage: Best=97.40% (Baseline), H=2.77
+  Base=97.40%, H→2.44=96.66%, Mega=97.31%, H+Mega=96.75%
+Letter: Best=94.04% (Baseline), H=2.64
+  Base=94.04%, H→2.44=92.73%, Mega=93.75%, H+Mega=92.88%
+Vehicle: Best=62.56% (Mega), H=2.37
+  Base=59.49%, H→2.44=62.05%, Mega=62.56%, H+Mega=62.56%
+Vowel: Best=83.95% (H→2.44), H=2.45
+  Base=75.31%, H→2.44=83.95%, Mega=80.25%, H+Mega=77.78%

@@ -1,0 +1,12 @@
+WILD TRICKS RESULTS
+======================================================================
+
+Iris: Best=Baseline (93.33%)
+Wine: Best=Ens10 (100.00%)
+Breast Cancer: Best=LargeCtx+Ens20 (98.83%)
+Digits: Best=AllTricks (98.77%)
+Segment: Best=AllTricks (94.28%)
+Satimage: Best=PCA8+Ens20 (98.14%)
+Letter: Best=AllTricks (96.37%)
+Vehicle: Best=PCA8+Ens20 (68.21%)
+Vowel: Best=PCA8+Ens20 (86.42%)

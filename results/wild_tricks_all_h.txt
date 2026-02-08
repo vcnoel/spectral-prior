@@ -1,0 +1,13 @@
+WILD TRICKS x ALL H PRIORS RESULTS
+============================================================
+
+Dataset         |  Model | Trick        |     Acc | NeuralK
+------------------------------------------------------------
+Iris            |  H=2.4 | Dropout10%   |  93.33% | 100.00%
+Wine            |  H=1.1 | Baseline     | 100.00% | 100.00%
+Breast Cancer   |  H=2.4 | Sharpen      |  98.83% |  98.83%
+Digits          |  H=1.1 | MegaEns60    |  97.53% | 100.00%
+Segment         |  H=1.1 | CtxAug       |  93.94% |  99.33%
+Satimage        |  H=3.9 | Bootstrap    |  98.05% |  99.26%
+Vehicle         |  H=1.1 | Bootstrap    |  67.18% |  81.54%
+Vowel           |  H=2.4 | Bootstrap    |  83.95% | 100.00%
