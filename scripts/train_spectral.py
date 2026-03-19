@@ -1,3 +1,16 @@
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+#
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
 
 import sys
 import os
@@ -37,8 +50,9 @@ def train_spectral():
     RUN_NAME = "spectral_student_t"
 
     # Prior Loader
-    # Note: validation/test usually comes from a different source or same prior.
-    # TFM-Playground train loop handles iteration.
+    # The PriorDataLoader generates infinite synthetic data on the fly.
+    # We define 'num_steps' as the number of batches per epoch.
+    # This differs from standard static datasets where epoch length is fixed.
     loader = PriorDataLoader(
         get_batch_function=get_batch_wrapper,
         num_steps=STEPS,
